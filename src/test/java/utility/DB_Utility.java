@@ -11,7 +11,7 @@ public class DB_Utility {
 
     public static void createConnection() {
 
-        String connectionStr = "jdbc:oracle:thin:@52.201.187.226:1521:XE";
+        String connectionStr = "jdbc:oracle:thin:@54.152.82.171:1521:XE";
         String username = "hr";
         String password = "hr";
 
