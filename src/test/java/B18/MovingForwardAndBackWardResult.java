@@ -22,6 +22,12 @@ public class MovingForwardAndBackWardResult {
         System.out.println(rs.getString("COUNTRY_ID")+" "
                 +rs.getString("COUNTRY_NAME"));
 
+rs.last();
+        System.out.println(rs.getString("COUNTRY_ID")+" "
+                +rs.getString("COUNTRY_NAME"));
+        rs.absolute(5);
+        System.out.println(rs.getString("COUNTRY_ID")+" "
+                +rs.getString("COUNTRY_NAME"));
 
 
     }
